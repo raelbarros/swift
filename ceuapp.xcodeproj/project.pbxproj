@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B41002D3694D48C2E5F25D /* Pods_ceuapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADDB3744C0BCA37D3C54C42 /* Pods_ceuapp.framework */; };
+		580CDBB01F5F13D800607AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CDBAF1F5F13D800607AA1 /* AppDelegate.swift */; };
+		580CDBB71F5F13D800607AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580CDBB61F5F13D800607AA1 /* Assets.xcassets */; };
+		580CDBBA1F5F13D800607AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580CDBB81F5F13D800607AA1 /* LaunchScreen.storyboard */; };
+		5826C6D71F699775002DD9FA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5826C6D61F699775002DD9FA /* ProfileViewController.swift */; };
+		582D476B1F69BF70002625FE /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D476A1F69BF70002625FE /* AppUser.swift */; };
+		583F42DD1F5F186000850AC9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F42DC1F5F186000850AC9 /* SignInViewController.swift */; };
+		583F42DF1F5F1E0900850AC9 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F42DE1F5F1E0900850AC9 /* AuthUser.swift */; };
+		58434CC21F5F148700B04ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58434CC11F5F148700B04ACD /* Main.storyboard */; };
+		588D45161F5F14FF00EBA755 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 588D45151F5F14FF00EBA755 /* GoogleService-Info.plist */; };
+		58B2BE9B1F670DB30070D82F /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B2BE9A1F670DB30070D82F /* EditProfileController.swift */; };
+		9D12AB9C1F6C3CAE0088A407 /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12AB9B1F6C3CAE0088A407 /* DefaultKeys.swift */; };
+		9D5271AE1F69EAA40044DDF8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5271AD1F69EAA40044DDF8 /* FeedViewController.swift */; };
+		9D8A536A1F6B04B400DE19FB /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A53691F6B04B400DE19FB /* DAO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		104C01840DD922D24CA6A135 /* Pods-ceuapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceuapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ceuapp/Pods-ceuapp.release.xcconfig"; sourceTree = "<group>"; };
+		1C3929D0D9943FAB2A13C665 /* Pods-ceuapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ceuapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ceuapp/Pods-ceuapp.debug.xcconfig"; sourceTree = "<group>"; };
+		580CDBAC1F5F13D800607AA1 /* ceuapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceuapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580CDBAF1F5F13D800607AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		580CDBB61F5F13D800607AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580CDBB91F5F13D800607AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580CDBBB1F5F13D800607AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5826C6D61F699775002DD9FA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		582D476A1F69BF70002625FE /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		583F42DC1F5F186000850AC9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		583F42DE1F5F1E0900850AC9 /* AuthUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
+		58434CC11F5F148700B04ACD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		588D45151F5F14FF00EBA755 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58B2BE9A1F670DB30070D82F /* EditProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		9D12AB9B1F6C3CAE0088A407 /* DefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
+		9D5271AD1F69EAA40044DDF8 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		9D8A53691F6B04B400DE19FB /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		CADDB3744C0BCA37D3C54C42 /* Pods_ceuapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ceuapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580CDBA91F5F13D800607AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B41002D3694D48C2E5F25D /* Pods_ceuapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580CDBA31F5F13D800607AA1 = {
+			isa = PBXGroup;
+			children = (
+				580CDBAE1F5F13D800607AA1 /* ceuapp */,
+				580CDBAD1F5F13D800607AA1 /* Products */,
+				CD7D954CB5B2A0C46CB113DD /* Pods */,
+				954A256B70E93A1F371732FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		580CDBAD1F5F13D800607AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580CDBAC1F5F13D800607AA1 /* ceuapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580CDBAE1F5F13D800607AA1 /* ceuapp */ = {
+			isa = PBXGroup;
+			children = (
+				58434CBE1F5F146200B04ACD /* Models */,
+				58434CBF1F5F146200B04ACD /* ViewControllers */,
+				58434CC01F5F146200B04ACD /* Views */,
+				580CDBAF1F5F13D800607AA1 /* AppDelegate.swift */,
+				580CDBB61F5F13D800607AA1 /* Assets.xcassets */,
+				580CDBB81F5F13D800607AA1 /* LaunchScreen.storyboard */,
+				588D45151F5F14FF00EBA755 /* GoogleService-Info.plist */,
+				580CDBBB1F5F13D800607AA1 /* Info.plist */,
+			);
+			path = ceuapp;
+			sourceTree = "<group>";
+		};
+		58434CBE1F5F146200B04ACD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				583F42DE1F5F1E0900850AC9 /* AuthUser.swift */,
+				582D476A1F69BF70002625FE /* AppUser.swift */,
+				9D8A53691F6B04B400DE19FB /* DAO.swift */,
+				9D12AB9B1F6C3CAE0088A407 /* DefaultKeys.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58434CBF1F5F146200B04ACD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58B2BE9A1F670DB30070D82F /* EditProfileController.swift */,
+				583F42DC1F5F186000850AC9 /* SignInViewController.swift */,
+				5826C6D61F699775002DD9FA /* ProfileViewController.swift */,
+				9D5271AD1F69EAA40044DDF8 /* FeedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		58434CC01F5F146200B04ACD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58434CC11F5F148700B04ACD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		954A256B70E93A1F371732FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADDB3744C0BCA37D3C54C42 /* Pods_ceuapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD7D954CB5B2A0C46CB113DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C3929D0D9943FAB2A13C665 /* Pods-ceuapp.debug.xcconfig */,
+				104C01840DD922D24CA6A135 /* Pods-ceuapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580CDBAB1F5F13D800607AA1 /* ceuapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580CDBBE1F5F13D800607AA1 /* Build configuration list for PBXNativeTarget "ceuapp" */;
+			buildPhases = (
+				37E18F3C73F25F1E7C4CBAC0 /* [CP] Check Pods Manifest.lock */,
+				580CDBA81F5F13D800607AA1 /* Sources */,
+				580CDBA91F5F13D800607AA1 /* Frameworks */,
+				580CDBAA1F5F13D800607AA1 /* Resources */,
+				C1CDFDC8919F7DB109EA9448 /* [CP] Embed Pods Frameworks */,
+				A6FA0151A86F0FE60E5F7157 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceuapp;
+			productName = ceuapp;
+			productReference = 580CDBAC1F5F13D800607AA1 /* ceuapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580CDBA41F5F13D800607AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CIT;
+				TargetAttributes = {
+					580CDBAB1F5F13D800607AA1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 580CDBA71F5F13D800607AA1 /* Build configuration list for PBXProject "ceuapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580CDBA31F5F13D800607AA1;
+			productRefGroup = 580CDBAD1F5F13D800607AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580CDBAB1F5F13D800607AA1 /* ceuapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580CDBAA1F5F13D800607AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58434CC21F5F148700B04ACD /* Main.storyboard in Resources */,
+				588D45161F5F14FF00EBA755 /* GoogleService-Info.plist in Resources */,
+				580CDBBA1F5F13D800607AA1 /* LaunchScreen.storyboard in Resources */,
+				580CDBB71F5F13D800607AA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37E18F3C73F25F1E7C4CBAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6FA0151A86F0FE60E5F7157 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceuapp/Pods-ceuapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CDFDC8919F7DB109EA9448 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ceuapp/Pods-ceuapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580CDBA81F5F13D800607AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582D476B1F69BF70002625FE /* AppUser.swift in Sources */,
+				58B2BE9B1F670DB30070D82F /* EditProfileController.swift in Sources */,
+				583F42DD1F5F186000850AC9 /* SignInViewController.swift in Sources */,
+				580CDBB01F5F13D800607AA1 /* AppDelegate.swift in Sources */,
+				9D8A536A1F6B04B400DE19FB /* DAO.swift in Sources */,
+				9D12AB9C1F6C3CAE0088A407 /* DefaultKeys.swift in Sources */,
+				5826C6D71F699775002DD9FA /* ProfileViewController.swift in Sources */,
+				583F42DF1F5F1E0900850AC9 /* AuthUser.swift in Sources */,
+				9D5271AE1F69EAA40044DDF8 /* FeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		580CDBB81F5F13D800607AA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580CDBB91F5F13D800607AA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580CDBBC1F5F13D800607AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580CDBBD1F5F13D800607AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580CDBBF1F5F13D800607AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3929D0D9943FAB2A13C665 /* Pods-ceuapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceuapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cit.ceuapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		580CDBC01F5F13D800607AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104C01840DD922D24CA6A135 /* Pods-ceuapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceuapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cit.ceuapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580CDBA71F5F13D800607AA1 /* Build configuration list for PBXProject "ceuapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580CDBBC1F5F13D800607AA1 /* Debug */,
+				580CDBBD1F5F13D800607AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580CDBBE1F5F13D800607AA1 /* Build configuration list for PBXNativeTarget "ceuapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580CDBBF1F5F13D800607AA1 /* Debug */,
+				580CDBC01F5F13D800607AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580CDBA41F5F13D800607AA1 /* Project object */;
+}
